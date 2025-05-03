@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(to right, #005,#000);
+    /* background-image: linear-gradient(to right,orange,yellow); */
+    background-color: antiquewhite;
 }
 h1{
     text-align: center;
