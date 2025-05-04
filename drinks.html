@@ -11,34 +11,112 @@
 
 </head>
 <body>
-    <h1>The Drinks Menu</h1>
+    <header>
+      <p class="logo">THE DRINKS MENU</p>
+    </header>
 
-    <div class="mango">
-    <img title="this is mango juice " src="images/2021_5_31_17_15_6_805.jpg" alt="mango juice"> 
-    <p>a glass of mango juice</p>
-    <p><mark>price:</mark> <del>50$</del> <b>40$</b></p>
-    <p> <a class="buy" href="javascript:alert('done');">buy now</a></p>
+    <div class="item">
+    <img title="كراميل ميكاتو" src="images/كراميل ميكاتو.webp" alt="كراميل ميكاتو"> 
+    <p>كراميل ميكاتو</p>
+    <p><del>50$</del> <b>40$</b><mark>:السعر</mark></p>
+    <!-- <p> <a class="buy" href="javascript:alert('done');">buy now</a></p> -->
+    <button onclick="addToInvoice('كراميل ميكاتو', 40)">أضف إلى الفاتورة</button>
     </div>
    
    
-    <div class="Strawberry">
-    <img title="this is Strawberry juice" src="images/images (2).jpeg" alt="Strawberry juice">
-    <p>a glass of Strawberry juice</p>
-    <p><mark>price:</mark> <b>30$</b></p>
-    <p> <a href="javascript:alert('done');">buy now</a></p>
+    <div class="item">
+    <img title="اسبريسو" src="images/اسبريسو.webp" alt="اسبريسو">
+    <p>اسبريسو</p>
+    <p><b>30$</b><mark>:السعر</mark></p>
+    <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+    <button onclick="addToInvoice( 'اسبريسو', 30)">أضف إلى الفاتورة</button>
     </div>
-    <div>
-      <img title="this is coffee" src="images/81d8f821-6284-40c8-9cc4-f1b90e25639d-1024x1024.webp" alt="coffee">
-      <p>a cup of coffee</p>
-      <p><mark>peice:</mark> <b>35$</b></p>
-      <p> <a href="javascript:alert('done');">buy now</a></p>
+    <div class="item">
+      <img title="ايس لاتيه" src="images/ايس لاتيه.webp" alt="ايس لاتيه">
+      <p>ايس لاتيه</p>
+      <p><b>35$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('ايس لاتيه', 35)">أضف إلى الفاتورة</button>
     </div>
-    <div>
-      <img title="this is tee" src="images/2021_8_7_11_27_54_182.jpeg" alt="tee">
-      <p>a cup of tee </p>
-      <p><mark>peice:</mark> <b>20$</b></p>
-      <p> <a href="javascript:alert('done');">buy now</a></p>
+    <div class="item">
+      <img title="سبانيش لاتيه" src="images/سبانيش لاتيه.webp" alt="سبانيش لاتيه">
+      <p>سبانيش لاتيه </p>
+      <p><b>20$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('سبانيش لاتيه', 20)">أضف إلى الفاتورة</button>
     </div>
+    <div class="item">
+      <img title="القهوه السعودي" src="images/القهوه السعودي.webp" alt="القهوه السعودي">
+      <p>القهوه السعودي</p>
+      <p><b>20$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('القهوه السعودي', 20)">أضف إلى الفاتورة</button>
+    </div>
+    <div class="item">
+      <img title="موهيتو" src="images/موهيتو.jpg" alt="موهيتو">
+    <p>موهيتو</p>
+      <p><b>20$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('موهيتو', 20)">أضف إلى الفاتورة</button>
+    </div>
+    <div class="item">
+      <img title="هوت تشوكلت" src="images/هوت تشوكلت.webp" alt="هوت تشوكلت">
+    <p>هوت تشوكلت</p>
+      <p><b>25$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('هوت تشوكلت', 25)">أضف إلى الفاتورة</button>
+    </div>
+    <div class="item">
+      <img title="لاتيه كراميل" src="images/لاتيه كراميل.webp" alt="لاتيه كراميل">
+    <p>لاتيه كراميل</p>
+      <p><b>20$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('لاتيه كراميل', 20)">أضف إلى الفاتورة</button>
+    </div>
+    <div class="item">
+      <img title="قهوه ايطالي" src="images/قهوه ايطالي.jpg" alt="قهوه ايطالي">
+    <p>قهوه ايطالي</p>
+      <p><b>30$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('قهوه ايطالي', 30)">أضف إلى الفاتورة</button>
+    </div>
+    <div class="item">
+      <img title="موكا بارد" src="images/موكا بارد.webp" alt="موكا بارد">
+    <p>موكا بارد</p>
+      <p><del>25$</del><b>15$</b><mark>:السعر</mark></p>
+      <!-- <p> <a href="javascript:alert('done');">buy now</a></p> -->
+      <button onclick="addToInvoice('موكا بارد', 15)">أضف إلى الفاتورة</button>
+    </div>
+    <div id="invoice"> <!-- قسم عرض الفاتورة -->
+      <h2>الفاتورة</h2> <!-- عنوان الفاتورة -->
+      <ul id="invoice-list"></ul> <!-- قائمة المشتريات -->
+      <p><strong>الإجمالي: </strong><span id="total">0</span> جنيه</p> <!-- عرض المجموع الكلي -->
+      <!-- <button id="printBtn" onclick="window.print()">طباعة الفاتورة</button> زر الطباعة -->
+      <p> <a class="buy" href="javascript:alert('Purchase completed');">buy now</a></p>
+  </div>
+  <script>
+    function showTab(tabId) {
+        const tabs = document.querySelectorAll('.tab');
+        const contents = document.querySelectorAll('.content');
+
+        tabs.forEach(tab => tab.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+
+        document.querySelector(`.tab[onclick="showTab('${tabId}')"]`).classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+    }
+
+    let total = 0;
+    function addToInvoice(item, price) {
+        const list = document.getElementById('invoice-list');
+        const listItem = document.createElement('li');
+        listItem.textContent = `${item} - ${price} جنيه`;
+        list.appendChild(listItem);
+
+        total += price;
+        document.getElementById('total').textContent = total;
+    }
+</script>
    
     
 </body>
