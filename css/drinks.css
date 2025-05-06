@@ -2,16 +2,7 @@ body{
     /* background-image: linear-gradient(to right,orange,yellow); */
     background-color: antiquewhite;
 }
-/* h1{
-    text-align: center;
-    background-color: rgb(244, 202, 169);
-    color: rgb(219, 93, 3);
-   
-   box-shadow: 1px 2px 30px 5px rgb(231, 127, 127) ;
-   font-style: italic;
-   margin: 10px 200px 20px 200px;
-   
-} */
+
 .logo{
     text-align: center;
     background-color: rgb(244, 202, 169);
@@ -40,9 +31,6 @@ div{
     padding: 8px;
     text-align: center;
     transition: 1s;
-    /* scale: 1.2; */
-    /* rotate: 30deg; */
-    /* transform: skew(10deg,10deg); */
     font-family: cursive;
     font-style: italic;
     display: inline-block;
@@ -61,23 +49,9 @@ img{
 }
 
 .item:hover{ 
-     /* width: 229px ;
-    height: 313px; */
+   
     scale:1.05;
 }
-/* .item{
-    animation: w 1s;
-} */
-    /* @keyframs w{
-        0%{
-            translate: 0 0;
-        }
-        100%{
-            translate: 0 -5px;
-        }
-    
-
-} */
   
 .buy{
    
